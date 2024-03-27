@@ -1,0 +1,76 @@
+:root {
+    font-size: 60%;
+
+    --color-background: #8d8d91;
+    --color-primary-lighter: #9ddaff;
+    /* Tons mais claros de azul claro */
+    --color-primary-light: #6eb5ff;
+    /* Azul claro mais claro */
+    --color-primary: #42a5f5;
+    /* Azul claro principal */
+    --color-primary-dark: #2286c3;
+    /* Azul claro mais escuro */
+    --color-primary-darker: #1c7eb2;
+    /* Tons mais escuros de azul claro */
+    --color-secundary: #000000;
+    /* Preto para a cor secundária */
+    --color-secundary-dark: #292424d5;
+    /* Preto mais escuro para a cor secundária */
+    --color-title-in-primary: #ffffff;
+    --color-text-in-primary: #2e4c79;
+    /* Texto em azul claro */
+    --color-text-title: #32264d;
+    --color-text-complement: #9c98a6;
+    --color-text-base: #6a6180;
+    --color-line-in-white: #a7a7b6;
+    --color-input-background: #f8f8fc;
+    --color-button-text: #ffffff;
+    --color-box-base: #ffffff96;
+    --color-box-footer: #fafafc;
+    --color-input-border-black: #000000;
+    --color-teacher-item-border: #d3d3d3;
+    --color-wpp-btn:#04d361;
+    --color-wpp-btn-hover:#04bf58;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100vh;
+}
+
+body {
+    background-color: (var(--color-background));
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+input,
+textarea,
+button {
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
+
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}

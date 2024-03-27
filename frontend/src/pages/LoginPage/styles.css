@@ -1,0 +1,24 @@
+#login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary-lighter);
+    border: solid 1px var(--color-teacher-item-border);
+}
+
+.login-page-content h2 {
+    color: var(--color-secundary);
+}
+
+.input-email {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inputs input{
+    margin: 0.6rem 0.6rem;
+    background: var(--color-input-background);
+    border-radius: 0.8rem;
+}
