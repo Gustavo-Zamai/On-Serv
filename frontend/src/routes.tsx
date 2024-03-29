@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Landing from "./pages/Landing";
 import WorkersList from "./pages/WorkersList";
 import WorkerForm from "./pages/WorkerForm";
-import CustomerForm from "./pages/CustomerForm";
+import CustomerForm from "./pages/Register";
 import LoginPage from "./pages/LoginPage";
 
 function RoutesPath () {
@@ -12,8 +12,8 @@ function RoutesPath () {
             <Routes>
                 <Route path="/" element={<Landing/>}/>
                 <Route path="/workers"  element={<WorkersList/>}/>
-                <Route path="/worker-form" element={<WorkerForm/>}/>
-                <Route path="/customer-form" element={<CustomerForm/>}/>
+                <Route path="/worker-form" element={<WorkerForm/>}/> 
+                <Route path="/register" element={<CustomerForm/>}/>
                 <Route path="/login" element={<LoginPage/>} />
             </Routes>
         </BrowserRouter>
