@@ -1,5 +1,6 @@
 import React from 'react'
 
+import PageHeader from '../../components/PageHeader';
 import icon from "../../assets/images/icons/email.svg"
 
 import "./styles.css";
@@ -7,7 +8,7 @@ import "./styles.css";
 const LoginPage = () => {
   return (
     <div id="login-page" className="login-page-content">
-        <h2>Entre com sua conta</h2>
+      <PageHeader title='Entre com sua conta' />
         <div className='inputs'>
           <div className="input-email">
             <label htmlFor="">E-mail: </label>
